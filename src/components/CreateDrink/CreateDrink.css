@@ -1,0 +1,98 @@
+.create-drink {
+    max-width: 600px;
+    margin: 10px auto 30px auto;
+    background-color: #fff;
+    border-radius: 14px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    border: 1px solid #e0d6c9;
+}
+
+.create-drink summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: #a68563;
+    font-size: 18px;
+}
+
+.create-drink input,
+.create-drink select,
+.create-drink textarea {
+    width: 100%;
+    padding: 10px 14px;
+    margin-top: 12px;
+    border: 1px solid #e0d6c9;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.2s;
+}
+
+.create-drink input:focus,
+.create-drink select:focus,
+.create-drink textarea:focus {
+    border-color: #c8a97e;
+    box-shadow: 0 0 0 2px rgba(200, 169, 126, 0.3);
+}
+
+.create-drink button {
+    margin-top: 16px;
+    width: 100%;
+    padding: 12px;
+    background: #c8a97e;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.create-drink button:hover {
+    background: #a68563;
+}
+
+.create-drink input[type="file"] {
+  width: 100%;
+  margin-top: 12px;
+  font-size: 14px;
+  color: #333;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background-color: #fdfaf6; 
+  padding: 10px;
+  cursor: pointer;
+}
+
+.create-drink input[type="file"]::-webkit-file-upload-button {
+  background: #c8a97e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  margin-right: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.create-drink input[type="file"]::-webkit-file-upload-button:hover {
+  background: #a68563;
+}
+
+.create-drink input[type="file"]::file-selector-button {
+  background: #c8a97e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  margin-right: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.create-drink input[type="file"]::file-selector-button:hover {
+  background: #a68563;
+}

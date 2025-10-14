@@ -1,0 +1,27 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f5ede2;
+    color: #333;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        max-width: 100%;
+        padding: 10px;
+    }
+}
