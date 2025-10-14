@@ -1,4 +1,10 @@
-
+:root {
+    --bg-main: #f5ede2;
+    --border: #e0d6c9;
+    --accent: #c8a97e;
+    --accent-dark: #a68563;
+    --text-main: #333;
+}
 
 * {
     margin: 0;
@@ -8,8 +14,8 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #f5ede2;
-    color: #333;
+    background-color: var(--bg-main);
+    color: var(--text-main);
 }
 
 .container{
