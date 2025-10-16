@@ -4,6 +4,26 @@
     --accent: #c8a97e;
     --accent-dark: #a68563;
     --text-main: #333;
+    --secondary-text-color: #444;
+    --secondary-bg-color: #fff;
+    --file-bg-color: #fdfaf6;
+    --input--bg-color: #f5ede2;
+    --button-bg-color: #c8a97e;
+    --button-bg-color-hover: #a68563;
+}
+
+[data-theme="dark"] {
+    --bg-main: #1f2028;        
+    --border: #3a322a;         
+    --accent: #d6b37a;         
+    --accent-dark: #b9945c;    
+    --text-main: #f5ede2;
+    --secondary-text-color: #b9945c;
+    --secondary-bg-color: #2e3039;
+    --file-bg-color: #24252d;
+    --input-bg-color: #23242d;
+    --button-bg-color: #b9945c;
+    --button-bg-color-hover: #b08543;
 }
 
 * {

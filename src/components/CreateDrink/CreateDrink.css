@@ -1,7 +1,7 @@
 .create-drink {
     max-width: 600px;
     margin: 10px auto 30px auto;
-    background-color: #fff;
+    background-color: var(--secondary-bg-color);
     border-radius: 14px;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
     padding: 20px;
@@ -23,6 +23,8 @@
     margin-top: 12px;
     border: 1px solid var(--border);
     border-radius: 10px;
+    background-color: var(--input-bg-color);
+    color: var(--text-main);
     font-size: 15px;
     outline: none;
     transition: 0.2s;
@@ -39,7 +41,7 @@
     margin-top: 16px;
     width: 100%;
     padding: 12px;
-    background: var(--accent);
+    background: var(--button-bg-color);
     color: #fff;
     border: none;
     border-radius: 10px;
@@ -50,7 +52,7 @@
 }
 
 .create-drink button:hover {
-    background: var(--accent-dark);
+    background: var(--button-bg-color-hover);
 }
 
 .create-drink input[type="file"] {
@@ -60,13 +62,13 @@
   color: var(--text-main);
   border: 1px solid var(--border);
   border-radius: 10px;
-  background-color: #fdfaf6; 
+  background-color: var(--file-bg-color); 
   padding: 10px;
   cursor: pointer;
 }
 
 .create-drink input[type="file"]::-webkit-file-upload-button {
-  background: var(--accent);
+  background: var(--button-bg-color);
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -78,11 +80,11 @@
 }
 
 .create-drink input[type="file"]::-webkit-file-upload-button:hover {
-  background: var(--accent-dark);
+  background: var(--button-bg-color-hover);
 }
 
 .create-drink input[type="file"]::file-selector-button {
-  background: #c8a97e;
+  background: var(--button-bg-color);
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -94,5 +96,5 @@
 }
 
 .create-drink input[type="file"]::file-selector-button:hover {
-  background: #a68563;
+  background: var(--button-bg-color-hover);
 }
