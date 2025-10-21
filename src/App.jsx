@@ -3,6 +3,7 @@ import './styles/style.css'
 import SearchBar from './components/SearchBar/SearchBar'
 import CreatDrink from './components/CreateDrink/CreateDrink'
 import HeroContent from './components/HeroContent/HeroContent'
+import ThemeButton from './components/ThemeButton/ThemeButton'
 
 const array = [
         {
@@ -125,6 +126,7 @@ function App() {
 
   return (
     <div className="container">
+      <ThemeButton />  
       <SearchBar search={setDrinkName} drinkName={drinkName} />
       <CreatDrink creat={creatCard} />
       <HeroContent cardList={cardList} drinkName={drinkName} />
