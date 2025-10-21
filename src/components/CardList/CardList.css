@@ -8,11 +8,11 @@
 .card-list h2 {
     text-align: center;
     font-weight: 600;
-    color: #444;
+    color: var(--secondary-text-color);
 }
 
 .card {
-    background: #fff;
+    background: var(--secondary-bg-color);
     border-radius: 16px;
     padding: 20px;
     overflow: hidden;
@@ -37,7 +37,7 @@
 .card p {
     font-size: 16px;
     font-weight: 600;
-    color: #444;
+    color: var(--secondary-text-color);
 }
 
 @media (max-width: 600px) {
