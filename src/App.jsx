@@ -120,7 +120,7 @@ function App() {
   const [cardList, setCardList] = useState(array);
   const [drinkName, setDrinkName] = useState('')
 
-  const creatCard = (newCard) => {
+  const createCard = (newCard) => {
     return setCardList([...cardList, newCard])
   }
 
@@ -128,7 +128,7 @@ function App() {
     <div className="container">
       <ThemeButton />  
       <SearchBar search={setDrinkName} drinkName={drinkName} />
-      <CreatDrink creat={creatCard} />
+      <CreatDrink create={createCard} />
       <HeroContent cardList={cardList} drinkName={drinkName} />
     </div>
   )
