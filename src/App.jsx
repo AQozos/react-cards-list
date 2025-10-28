@@ -9,7 +9,7 @@ const array = [
         {
             name: 'Black tea',
             category: 'tea',
-            description: 'This tea is really dellicius',
+            description: 'Classic strong tea with a rich flavor and invigoration aroma.',
             src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbkN3ac32LtbkSarTBA_ppldBkTgGJspjDpA&s'
         },
         {
