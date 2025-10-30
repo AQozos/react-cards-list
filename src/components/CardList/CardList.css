@@ -5,57 +5,16 @@
     gap: 20px;
 }
 
-.card-list h2 {
+h2 {
     text-align: center;
     font-weight: 600;
     color: var(--secondary-text-color);
-}
-
-.card {
-    background: var(--secondary-bg-color);
-    border-radius: 16px;
-    padding: 20px;
-    overflow: hidden;
-    text-align: center;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
-    transition: box-shadow 0.2s, transform 0.2s ;
-}
-
-.card:hover {
-    transform: translateY(-3px);
-    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.1);
-}
-
-.card img {
-    width: 175px;
-    height: 175px;
-    margin-bottom: 12px;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
-.card p {
-    font-size: 16px;
-    font-weight: 600;
-    color: var(--secondary-text-color);
+    width: 100%;
 }
 
 @media (max-width: 600px) {
     .card-list {
         grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
         gap: 12px;
-    }
-
-    .card {
-        padding: 12px;
-    }
-
-    .card img {
-        width: 125px;
-        height: 125px;
-    }
-
-    .card p {
-        font-size: 14px;
     }
 }

@@ -34,6 +34,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    font-size: 16px;
     background-color: var(--bg-main);
     color: var(--text-main);
     transition: background-color 0.5s ease, color 0.5s ease;
@@ -43,6 +44,13 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+.header {
+    max-width: 600px;
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: right;
 }
 
 @media (max-width: 600px) {

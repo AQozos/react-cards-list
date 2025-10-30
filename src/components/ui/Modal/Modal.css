@@ -1,0 +1,45 @@
+.modal {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: modal-view;
+    animation-duration: .5s;
+}
+
+.modal-content {
+    padding: 20px;
+    border-radius: 16px;
+    background-color: var(--secondary-bg-color);
+    position: relative;
+    will-change: transform;
+    animation-name: modal-content-view;
+    animation-duration: .3s;
+    animation-timing-function: ease;
+}
+
+@keyframes modal-content-view {
+    0% {
+        transform: scale(120%);
+    }
+    50% {
+        transform: scale(110%);
+    }
+    100% {
+        transform: scale(100%);
+    }
+}
+
+@keyframes modal-view {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
