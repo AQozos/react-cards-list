@@ -10,7 +10,7 @@ const Card = ({card, onOpen, onClose, open}) => {
                 <p>{card.name}</p>
             </div>
             {open && (
-                <Modal onClose={onClose}>
+                <Modal onClose={onClose} active={open}>
                     <div className='card__modal'>
                         <button className='card__modal--btn-close' onClick={onClose}>
                             <svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="#3a435d">

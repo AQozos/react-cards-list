@@ -46,6 +46,13 @@ body {
     padding: 0 20px;
 }
 
+.header {
+    max-width: 600px;
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: right;
+}
+
 @media (max-width: 600px) {
     .container {
         flex-direction: column;
