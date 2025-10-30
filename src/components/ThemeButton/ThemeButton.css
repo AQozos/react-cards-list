@@ -1,0 +1,18 @@
+.theme-switch {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    /* margin: 20px 24% 0 auto; */
+    border: none;
+    border-radius: 50%;
+    background-color: var(--input-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color .5s ease;
+}
+
+.theme-switch:hover {
+    background-color: var(--accent);
+}
+

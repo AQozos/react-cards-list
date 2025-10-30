@@ -18,17 +18,18 @@
     border: none;
     font-size: 16px;
     font-weight: 500;
-    color: #555;
+    color: var(--text-main);
+    /* color: #555;  */
     cursor: pointer;
     transition: color 0.2s;
 }
 
 .sidebar button:hover {
-    color: #a68563;
+    color: var(--accent-dark);
 }
 
 .sidebar button.active {
-    color: #a68563;
+    color: var(--accent-dark);
 }
 
 @media (max-width: 600px) {

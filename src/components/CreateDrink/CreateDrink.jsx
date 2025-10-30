@@ -1,13 +1,14 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import './CreateDrink.css'
 
-export default function CreatDrink({creat}) {
+export default function CreatDrink({create}) {
+    const inputRef = useRef(null);
 
     const [card, setCard] = useState({
         name: '',
         category: 'tea',
         description: '',
-        src: ''
+        src: '../../../public/no-drink.png'
     })
 
     return(
@@ -31,11 +32,12 @@ export default function CreatDrink({creat}) {
             </textarea>
             <input 
                 type="file" 
-                id='file'
-                onChange={e => setCard({...card, src: URL.createObjectURL(e.target.files[0])})}/>
+                ref={inputRef}
+                onChange={e => setCard({...card, src: (e.target.files && URL.createObjectURL(e.target.files[0]))})}/>
             <button onClick={() => {
-                creat(card),
-                setCard({name: '', category: 'tea', description: '', src: ''})
+                create(card);
+                inputRef.current.value='';
+                setCard({name: '', category: 'tea', description: '', src: '../../../public/no-drink.png'})
             }}>Add Drink</button>
         </details>
     )
