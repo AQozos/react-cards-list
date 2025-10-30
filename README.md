@@ -1,9 +1,7 @@
 <div align="center">
   
   <br />
-    <a href="https://www.youtube.com/watch?v=dCLhUialKPQ" target="_blank">
-      <img src="public/readme/hero.png" alt="Project Banner" width='917px' heigth='262px'>
-    </a>
+    <img src="public/readme/hero.png" alt="Project Banner" width='917' heigth='262'>
   <br />
 
   <div>
