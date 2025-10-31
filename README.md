@@ -1,7 +1,7 @@
 <div align="center">
   
   <br />
-    <img src="public/readme/hero.png" alt="Project Banner" width='917' heigth='262'>
+    <img src="public/readme/hero.png" alt="Project Banner" >
   <br />
 
   <div>
